@@ -1,6 +1,6 @@
 const mongoose = require("mongoose"); 
 //! rename dbName value on line below 
-const dbName = "mongoDatabase96"
+const dbName = "jokesApiAssignment"
 const mongoURI = `mongodb://localhost:27017/${dbName}`; 
 mongoose
     .connect(mongoURI, {useNewUrlParser: true, useUnifiedTopology: true})
